@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/sridhar/esp/esp-idf-v4.3/components/bootloader/subproject",
+    "build_dir":          "/home/sridhar/esp/Vaman_spi/build/bootloader",
+    "config_file":        "/home/sridhar/esp/Vaman_spi/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/sridhar/esp/esp-idf-v4.3/components/efuse/Kconfig;/home/sridhar/esp/esp-idf-v4.3/components/esp32/Kconfig;/home/sridhar/esp/esp-idf-v4.3/components/esp_common/Kconfig;/home/sridhar/esp/esp-idf-v4.3/components/esp_system/Kconfig;/home/sridhar/esp/esp-idf-v4.3/components/log/Kconfig;/home/sridhar/esp/esp-idf-v4.3/components/newlib/Kconfig;/home/sridhar/esp/esp-idf-v4.3/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/sridhar/esp/esp-idf-v4.3/components/bootloader/Kconfig.projbuild;/home/sridhar/esp/esp-idf-v4.3/components/esptool_py/Kconfig.projbuild;/home/sridhar/esp/esp-idf-v4.3/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/sridhar/esp/esp-idf-v4.3/components/bootloader", "/home/sridhar/esp/esp-idf-v4.3/components/bootloader_support", "/home/sridhar/esp/esp-idf-v4.3/components/efuse", "/home/sridhar/esp/esp-idf-v4.3/components/esp32", "/home/sridhar/esp/esp-idf-v4.3/components/esp_common", "/home/sridhar/esp/esp-idf-v4.3/components/esp_hw_support", "/home/sridhar/esp/esp-idf-v4.3/components/esp_rom", "/home/sridhar/esp/esp-idf-v4.3/components/esp_system", "/home/sridhar/esp/esp-idf-v4.3/components/esptool_py", "/home/sridhar/esp/esp-idf-v4.3/components/hal", "/home/sridhar/esp/esp-idf-v4.3/components/log", "/home/sridhar/esp/esp-idf-v4.3/components/bootloader/subproject/main", "/home/sridhar/esp/esp-idf-v4.3/components/bootloader/subproject/components/micro-ecc", "/home/sridhar/esp/esp-idf-v4.3/components/newlib", "/home/sridhar/esp/esp-idf-v4.3/components/partition_table", "/home/sridhar/esp/esp-idf-v4.3/components/soc", "/home/sridhar/esp/esp-idf-v4.3/components/spi_flash", "/home/sridhar/esp/esp-idf-v4.3/components/xtensa", "" ]
+}
