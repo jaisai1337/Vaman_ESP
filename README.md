@@ -36,7 +36,7 @@ idf.py build
 ```
 ## Flash onto the Device
 ```
-idf.py -p PORT -b 115200 flash
+idf.py -p PORT -b BAUD flash
 ```
 # Download The VAMAN_SPI Code
 ```
@@ -57,6 +57,6 @@ idf.py build
 ```
 ## Flash onto the Device
 ```
-idf.py -p PORT -b 115200 flash
+idf.py -p /dev/ttyUSB0 -b 115200 flash
 ```
 
