@@ -48,7 +48,8 @@ cd Vaman_SPI
 ```
 idf.py set-target esp32
 idf.py menuconfig
-```### In menuconfig go to Serial flasher config and change Flash size to 4MB
+```
+### In menuconfig go to Serial flasher config and change Flash size to 4MB
 ### And then go back and go to Component config and Enable Bluetooth and Save using (S) and Quit (Q) 
 ## Build the Project
 ```
